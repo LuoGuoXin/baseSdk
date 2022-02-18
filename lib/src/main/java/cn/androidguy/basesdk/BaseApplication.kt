@@ -7,7 +7,7 @@ import com.tencent.mmkv.MMKV
  * DATE : 2022/2/18
  * @author : 景天
  */
-class BaseApplication : Application() {
+open class BaseApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
